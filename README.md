@@ -1,4 +1,4 @@
-# DockerHelloWorld
+# Hello World using Docker networking
 
 Hello world using Docker networking tools
 
