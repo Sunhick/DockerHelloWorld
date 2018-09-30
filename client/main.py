@@ -7,8 +7,8 @@ import websockets
 
 async def hello():
     async with websockets.connect(
-            'wss://localhost:8765') as websocket:
-        name = input("What's your name? ")
+            'ws://172.18.0.2:9000') as websocket:
+        name = "Sunil welcome" #input("What's your name? ")
 
         await websocket.send(name)
         print(f"> {name}")
