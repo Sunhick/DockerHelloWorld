@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>91</y>
+      <w>553</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Host
+bg=orange
+layer=-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>294</x>
+      <y>175</y>
+      <w>112</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Container #1
+
+
+Python Webserver
+(websocket)
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>175</y>
+      <w>112</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Container #2
+
+Python webclient
+(websocket)
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>245</y>
+      <w>280</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.&gt;
+
+
+[hello n/w bridge]
+ws://172.180.2:9000/</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;380.0;90.0;380.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>259</x>
+      <y>147</y>
+      <w>469</w>
+      <h>217</h>
+    </coordinates>
+    <panel_attributes>lt=.
+subnet
+layer=-1
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
